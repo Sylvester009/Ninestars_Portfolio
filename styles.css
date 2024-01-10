@@ -377,13 +377,13 @@ i {
     max-width: 100%;
   }
 
-  #About {
-    flex-direction: column;
-  }
-
   .myself {
     width: 100%;
     padding-right: 100px;
+  }
+
+  .myself h2 {
+    font-size: clamp(1.5rem, 1vw, 2rem);
   }
 
   .skills {
@@ -404,10 +404,6 @@ i {
   .myself {
     width: 100%;
     padding-right: 0;
-  }
-
-  .myself h2{
-    font-size: clamp(1.5rem,1vw,2rem);
   }
 }
 
