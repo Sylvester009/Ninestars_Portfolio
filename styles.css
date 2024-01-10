@@ -22,6 +22,12 @@ body {
   margin: 0;
   background-color: var(--white);
   overflow-x: hidden;
+  width: 100%;
+}
+
+main {
+  width: 100%;
+  overflow-x: hidden;
 }
 
 .heading {
