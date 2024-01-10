@@ -411,6 +411,10 @@ i {
     width: 90%;
   }
 
+  #Projects h2 {
+    padding-left: 15px;
+  }
+
   .myself {
     width: 100%;
     padding-right: 0;
