@@ -479,6 +479,69 @@ i {
   .footer-div {
     width: 100%;
   }
+
+  /*color theme*/
+  body {
+    background-color: #1e1e1e;
+    color: var(--white);
+  }
+
+  h2 {
+    color: var(--light-gold);
+  }
+  button {
+    border-color: #f7a902;
+  }
+
+  .work {
+    background-color: #fd9800;
+  }
+
+  .myself h2,
+  #Projects h2 {
+    color: var(--white);
+  }
+
+  .sub-skill,
+  .project-div img {
+    box-shadow: 4px 4px 8px #625757;
+    border-color: #443f3f;
+  }
+
+  .skills-img-div {
+    position: relative;
+    z-index: 2;
+  }
+
+  #Contact {
+    background: linear-gradient(
+      120deg,
+      #b1adad 0%,
+      var(--navy-blue) 25%,
+      #666241 50%,
+      #181c22 80%
+    );
+  }
+
+  form input,
+  form textarea {
+    background: linear-gradient(
+      120deg,
+      #b1adad 0%,
+      var(--navy-blue) 25%,
+      #666241 50%,
+      #181c22 80%
+    );
+    color: var(--white);
+  }
+
+  address {
+    color: var(--white);
+  }
+
+  address a {
+    color: rgb(223, 73, 223);
+  }
 }
 
 @media only screen and (max-width: 480px) {
