@@ -430,8 +430,14 @@ i {
     align-items: flex-start;
   }
 
-  .form-div-main {
+  .form-div-main,
+  .footer-div {
     width: 70%;
+  }
+
+  .footer-div {
+    margin-top: 25px;
+    margin-left: 15px;
   }
 }
 
@@ -469,7 +475,8 @@ i {
     height: 105vh;
   }
 
-  .form-div-main {
+  .form-div-main,
+  .footer-div {
     width: 100%;
   }
 }
