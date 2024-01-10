@@ -353,6 +353,10 @@ i {
   color: var(--rich-gold);
 }
 
+#navbar2 {
+  display: none;
+}
+
 /*screen size*/
 
 @media only screen and (max-width: 1200px) {
@@ -471,6 +475,28 @@ i {
     display: none;
   }
 
+  #navbar2 {
+    width: 100%;
+    display: flex;
+    background-color: var(--navy-blue);
+    background: linear-gradient(
+      120deg,
+      #b1adad 0%,
+      var(--navy-blue) 25%,
+      #666241 50%,
+      #181c22 80%
+    );
+    position: fixed;
+    z-index: 2;
+    bottom: 0;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  #navbar2 i {
+    width: 30px;
+  }
+
   .Home-section {
     height: 105vh;
   }
@@ -521,6 +547,7 @@ i {
       #666241 50%,
       #181c22 80%
     );
+    padding-bottom: 80px;
   }
 
   form input,
