@@ -396,6 +396,21 @@ i {
   }
 }
 
+@media only screen and (max-width: 770px) {
+  #About {
+    flex-direction: column;
+  }
+
+  .myself {
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .myself h2{
+    font-size: clamp(1.5rem,1vw,2rem);
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .Home-section {
     height: 100vh;
