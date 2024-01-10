@@ -382,7 +382,8 @@ i {
     padding-right: 70px;
   }
 
-  .myself h2 {
+  .myself h2,
+  #Projects h2 {
     font-size: clamp(1.5rem, 1vw, 2rem);
   }
 
@@ -401,8 +402,13 @@ i {
 }
 
 @media only screen and (max-width: 770px) {
-  #About {
+  #About,
+  .project-div {
     flex-direction: column;
+  }
+
+  .project-div a {
+    width: 90%;
   }
 
   .myself {
@@ -453,7 +459,8 @@ i {
     margin: 0 auto;
   }
 
-  #About {
+  #About,
+  #Projects {
     padding-inline: 20px;
   }
 }
