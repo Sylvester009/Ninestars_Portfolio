@@ -399,11 +399,16 @@ i {
   .sub-heading {
     font-size: 1.2rem;
   }
+
+  #Contact {
+    padding: 50px 100px;
+  }
 }
 
 @media only screen and (max-width: 770px) {
   #About,
-  .project-div {
+  .project-div,
+  #Contact {
     flex-direction: column;
   }
 
@@ -418,6 +423,15 @@ i {
   .myself {
     width: 100%;
     padding-right: 0;
+  }
+
+  #Contact {
+    padding: 50px 35px;
+    align-items: flex-start;
+  }
+
+  .form-div-main {
+    width: 70%;
   }
 }
 
@@ -453,6 +467,10 @@ i {
 
   .Home-section {
     height: 105vh;
+  }
+
+  .form-div-main {
+    width: 100%;
   }
 }
 
