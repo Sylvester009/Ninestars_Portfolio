@@ -379,7 +379,7 @@ i {
 
   .myself {
     width: 100%;
-    padding-right: 100px;
+    padding-right: 70px;
   }
 
   .myself h2 {
@@ -392,7 +392,11 @@ i {
 
   .sub-skill {
     padding-block: 10px;
-    font-size: 18px;
+    font-size: 16px;
+  }
+
+  .sub-heading {
+    font-size: 1.2rem;
   }
 }
 
@@ -447,6 +451,10 @@ i {
   .hero-image img {
     max-width: 350px;
     margin: 0 auto;
+  }
+
+  #About {
+    padding-inline: 20px;
   }
 }
 
