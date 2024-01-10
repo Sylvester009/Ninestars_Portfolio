@@ -492,7 +492,7 @@ i {
     );
     position: fixed;
     z-index: 2;
-    bottom: 0;
+    bottom: -5px;
     justify-content: space-around;
     align-items: center;
     border-radius: 4px;
